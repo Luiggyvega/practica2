@@ -14,37 +14,102 @@ const { title } = Astro.props;
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
+		<title>practica Astro</title>
 	</head>
 	<body>
+		<header class="h-14 flex items-center border-b-2 sticky top-0 bg-white ">
+			<img class="mx-auto" src="https://pofo.themezaa.com/wp-content/uploads/2017/05/logo.png.webp" alt="">
+			<menu
+				class="mx-auto w-[40%] h-auto space-x-7 flex uppercase"
+			>
+				<a href="">demo</a>
+				<a href="">portafolios</a>
+				<a href="">blog</a>
+				<a href="">casa</a>
+				<a href="">Buy Now</a>
+				<a href="">
+					<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="size-4 my-auto"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+					></path>
+				</svg>
+				</a>
+			</menu>
+		</header>
+		<div class="flex flex-col justify-center items-center h-[400px] bg-center bg-repeat-x bg-[url('https://img.freepik.com/fotos-premium/dos-personas-tomando-cafe-frente-ventana_674594-28997.jpg')]">
+			<h1 class="w-[600px] uppercase text-white text-[50px] font-medium text-center">Crafting digital experience</h1>
+			<button class="uppercase bg-white w-40 rounded-xl ">INgresa ya</button>
+		</div>
+		<div class="flex flex-col justify-center items-center h-[600px]">
+			<h1 class="mt-8 w-[500px] text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis amet neque porro provident rem! Facilis similique sint velit mollitia voluptates aspernatur doloremque corporis, eius veniam praesentium quae minima consequatur dolores.</h1>
+			<div class="flex gap-4 mt-8">
+				<div class="w-[320px] h-[400px] flex justify-center flex-col items-center">
+					<img class="w-auto h-[225px]" src="https://igualdad.cepal.org/sites/default/files/2022-04/afrodescendientes.jpg" alt="">
+					<h1 class="text-center mt-2 uppercase font-medium">titulo</h1>
+					<h2 class=" text-center font-light text-[14px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A minima voluptatibus voluptatum quasi consectetur hic fugit similique</h2>
+					<button class="mt-6 border border-gray-950 w-[100px] rounded-xl ">Informacion</button>
+				</div>
+				<div class="w-[320px] h-[400px] flex justify-center flex-col items-center">
+					<img class="w-auto h-[225px]" src="https://igualdad.cepal.org/sites/default/files/2022-04/afrodescendientes.jpg" alt="">
+					<h1 class="text-center mt-2 uppercase font-medium">titulo</h1>
+					<h2 class=" text-center font-light text-[14px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A minima voluptatibus voluptatum quasi consectetur hic fugit similique</h2>
+					<button class="mt-6 border border-gray-950 w-[100px] rounded-xl ">Informacion</button>
+				</div>
+				<div class="w-[320px] h-[400px] flex justify-center flex-col items-center">
+					<img class="w-auto h-[225px]" src="https://igualdad.cepal.org/sites/default/files/2022-04/afrodescendientes.jpg" alt="">
+					<h1 class="text-center mt-2 uppercase font-medium">titulo</h1>
+					<h2 class=" text-center font-light text-[14px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A minima voluptatibus voluptatum quasi consectetur hic fugit similique</h2>
+					<button class="mt-6 border border-gray-950 w-[100px] rounded-xl ">Informacion</button>
+				</div>
+			</div>
+		</div>
+		<div class="mt-5 h-[300px] flex gap-5 justify-center">
+			<div class="h-auto w-[400px] bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhUCSWdyBMHhgtJPWU0LFg__-bU7gxzBP7w&s')]">
+			</div>
+			<div class="h-auto w-[400px] bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhUCSWdyBMHhgtJPWU0LFg__-bU7gxzBP7w&s')]">
+			</div>
+			<div class="h-auto  w-[400px] bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkhUCSWdyBMHhgtJPWU0LFg__-bU7gxzBP7w&s')]">
+			</div>
+
+		</div>
+		<div class="h-[400px] mt-10">
+			<h1 class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi ullam </h1>
+			<div class="flex mt-3 justify-center">
+				<div class="h-[300px] w-[200px] bg-cover bg-[url('https://img.freepik.com/foto-gratis/vista-frontal-fotografo-masculino-sonriente_23-2148453397.jpg')]"></div>
+				<div class="h-[300px] w-[200px] bg-cover bg-[url('https://img.freepik.com/foto-gratis/vista-frontal-fotografo-masculino-sonriente_23-2148453397.jpg')]" ></div>
+				<div class="h-[300px] w-[200px] bg-cover bg-[url('https://img.freepik.com/foto-gratis/vista-frontal-fotografo-masculino-sonriente_23-2148453397.jpg')]"></div>
+				<div class="h-[300px] w-[200px] bg-cover bg-[url('https://img.freepik.com/foto-gratis/vista-frontal-fotografo-masculino-sonriente_23-2148453397.jpg')]"></div>
+			</div>
+		</div>
+		<footer class="h-[100px] bg-gray-900 flex justify-center gap-10">
+			<div class="h-auto w-[300px]">
+				<h1 class="text-gray-400 mt-5 font-semibold text-center ">Lorem ipsum dolor sit</h1>
+				<h2 class="mt-3 text-gray-400 font-medium text-center">Lorem ipsum </h2>
+			</div>
+			<div class="h-auto w-[300px]">
+				<h1 class="text-gray-400 mt-5 font-semibold text-center ">Lorem ipsum dolor sit</h1>
+				<h2  class="mt-3 text-gray-400 font-medium text-center">Lorem ipsum  </h2>
+			</div>
+			<div class="h-auto w-[300px]">
+				<h1 class="text-gray-400 mt-5 font-semibold text-center ">Lorem ipsum dolor sit</h1>
+				<h2  class="mt-3 text-gray-400 font-medium text-center">Lorem ipsum </h2>
+			</div>
+
+		</footer>
 		<!-- <slot /> -->
 	</body>
 </html>
-<style is:global>
-	/* :root {
-		--accent: 136, 58, 234;
-		--accent-light: 224, 204, 250;
-		--accent-dark: 49, 10, 101;
-		--accent-gradient: linear-gradient(
-			45deg,
-			rgb(var(--accent)),
-			rgb(var(--accent-light)) 30%,
-			white 60%
-		);
-	}
+<style>
 	html {
 		font-family: system-ui, sans-serif;
-		background: #13151a;
 	}
-	code {
-		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
-	} */
 </style>
